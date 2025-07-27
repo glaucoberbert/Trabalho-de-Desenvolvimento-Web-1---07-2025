@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portifólio Glauco Berbert</title>
+    <link rel="shortcut icon" href="img/ícone.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav>
+        <div class="icone">
+            <img src="img/icone invertido.png" alt="">
+        </div>
+        
+        <div class="titulo"><a href="index.html">Hashidaki Nazuki</a></div>
+
+        <ul>
+            <li><a href="sobre.html">Sobre mim</a></li>
+            <li><a href="projetos.html">Projetos</a></li>
+            <li><a href="contato.html">Contato</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section class="formulario">
+            <h2>Fale comigo 🎸</h2>
+            <form class="form-contato">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required />
+                <div id="avisonome" class="aviso"></div>
+
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required />
+                <div id="avisoemail" class="aviso"></div>
+
+                <label for="assunto">Assunto:</label>
+                <input type="text" id="assunto" name="assunto" required />
+                <div id="avisoassunto" class="aviso"></div>
+
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+                <div id="avisomensagem" class="aviso"></div>
+
+                <button id="bt" type="submit">Enviar</button>
+                <p id="mensagem-sucesso" class="sucesso"></p>
+            </form>
+        </section>
+    </main>
+
+</body>
+
+    <footer> <!--div semântica de rodapé-->
+        <p>&copy; 2025 Hashidaki Nazuki Todos os direitos reservados</p> <!--Só de colocar "&copy" ele já
+        gera sózinho o símbolo e o início do negócio do copyright-->
+    </footer>
+
+    <script src="JavaScript/script.js"></script>
+
+</html>

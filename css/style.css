@@ -1,0 +1,291 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-image: url('../img/Background.jpg');
+}
+
+nav ul {
+    display: flex;
+    font-size: 23px;
+    padding: 0 50px 0  0 ;
+    align-items: center;
+    list-style: none;
+    transition: color 1s ease-out;
+}
+
+nav a{
+    padding: 18px;
+    text-decoration: none;
+    color: aliceblue;
+    transition-property: color;
+    transition-duration: 200ms;
+    transition-timing-function: ease-out;
+}
+
+nav a:hover{
+    color: rgb(169, 99, 235);
+}
+
+
+nav {
+    background-color: #000000;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 87px;
+    align-items: center;
+}
+
+.icone img{
+    padding:  0  0  0 50px;
+    height: 66px;
+}
+
+.titulo{
+    color: aliceblue;
+    font-size: 33px;
+    padding: 0 0 0 200px;
+    transition-property: color;
+    transition-duration: 200ms;
+    transition-timing-function: ease-out;
+}
+
+.titulo:hover{
+    color: rgb(169, 99, 235);
+}
+
+.hero {
+    display: flex;
+}
+
+.hero-texto{
+    color: aliceblue;
+    text-indent: 30px;
+    background-color: rgba(0, 0, 0, 0.5);
+    font-size: 25px;
+    padding: 0 64px;
+    text-align: justify;
+    margin: auto;
+}
+
+.hero-img img {
+    height: 450px;
+    padding: 26px 100px 0 0;
+}
+
+.hero-titulo{
+    color: aliceblue;
+    text-indent: 30px;
+    background-color: rgba(0, 0, 0, 0.5);
+    font-size: 30px;
+    padding: 0 64px;
+    text-align: justify;
+    margin: auto;
+}
+
+.sobre{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+
+.sobre-titulo{
+    color: aliceblue ;
+    font-size: 33px;
+    text-align: center;
+    padding: 33px 0;
+}
+
+.sobre-texto{
+    color: aliceblue ;
+    padding: 0 121px;
+    font-size: 27px;
+    text-align: justify;
+    margin: auto;
+    justify-content: center;
+    max-width: 1000px;
+    width: 100%;
+}
+
+.sobre-vitrine{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    max-width: 1000px;
+    width: 100%;
+}
+
+.instrumento{
+    align-items: center;
+    padding: 50px 20px ;
+    width: 100%;
+}
+
+.desc-instrumento{
+    color: aliceblue;
+    text-align: center;
+    margin: 0 0 50px 0 ;
+    font-size: 25px;
+}
+
+.img-instrumento img{
+    height: 193px;
+}
+
+.projeto{
+    padding: 0 0 30px 0;
+}
+
+.projeto, .projeto-bottom{
+    color: aliceblue;
+    font-size: 25px;
+}
+
+.projeto-bottom{
+    padding: 0 0 87px 0;
+}
+
+.detalhes-projeto{
+    align-items: center;
+    justify-content: center;
+    height: 557px;
+    display: flex;
+    text-align: justify;
+    padding: 0  0  0 12px;
+}
+
+.detalhes-projeto p{
+    padding: 20px
+}
+
+.conteudo-projeto{
+    display: flex;
+    height: 400px;
+    align-items: center;
+    justify-content: center;
+    margin: 0 300px;
+}
+
+.titulo-projeto{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    height: 82px;
+    margin: 10px 0;
+}
+
+.titulo-projeto h3{
+    display: flex;
+    max-width: 500px;
+    color: orange;
+    align-items: center;
+    padding: 10px;
+}
+
+.bt{
+    text-align: center;
+    margin: 0px 0 0 268px; 
+    
+}
+
+.bt a{
+    text-decoration: none;
+    color: black;
+    background-color: orange;
+    padding: 5px 15px;
+    border-radius: 2px;
+    align-items: center;    
+}
+
+.imagem img{
+    height: 400px;
+    border-radius: 15px;
+}
+
+.vitrine{
+    text-align: center;
+    font-size: 39px;
+    color: aliceblue;
+    padding: 10px 0px 0px 0;
+}
+
+
+main{
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 50px 0 100px 0;
+}
+
+.formulario {
+    max-width: 600px;
+    max-height: 600px;
+    margin:  0 auto 0 auto;
+    padding:  30px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.formulario h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 28px;
+    color: #333;
+}
+
+.formulario label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #555;
+}
+
+.formulario input, .formulario textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.formulario button {
+    width: 100%;
+    padding: 12px;
+    background-color: #333;
+    color: #fff;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.formulario button:hover {
+    background-color: #555;
+}
+
+.sucesso {
+    text-align: center;
+    color: green;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+
+footer{
+    height: 20px; /*altura*/
+    width: 100%; /*largura*/
+    color: white; /*cor da fonte*/
+    font-weight: 600; /*negrito*/
+    font-size: 17px; /*tamanho da fonte*/
+    text-align: center; /*centraliza o texto*/
+    background-color: rgb(0, 0, 0);; /*cor de fundo*/
+    position: fixed; /*posição fixa, independente do que rolar ele n sai da tela*/
+    bottom: 0; /*parte mais inferior possível da página, bottom é tipo canto inferior*/
+    left: 0; /*partindo da parte mais a esquerda da página, evita de dar bordas laterais*/
+    padding: 20px 0 ; /*foi utilizado pra deixar o retângulo com o texto mais altinho, e
+    o texto centralizado sem ficar grudado em cima ou embaixo, assim ele ficou
+    exatamente no meio*/
+}
