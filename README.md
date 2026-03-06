@@ -1,4 +1,4 @@
-# Portfólio Fictício - TechStore
+# Portfólio Fictício - Hashidaki Nazuki
 
 Este é um projeto de portfólio desenvolvido como parte da disciplina de **Desenvolvimento Web**. 
 O objetivo foi aplicar conceitos fundamentais de estruturação e estilização para criar uma interface funcional, limpa e responsiva.
@@ -8,7 +8,7 @@ O objetivo foi aplicar conceitos fundamentais de estruturação e estilização 
 ## Demonstração
 
 Você pode visualizar o projeto online através do link abaixo:  
-🔗 [Acessar TechStore Portfólio](https://glaucoberbert.github.io/Trabalho-de-Desenvolvimento-Web-1---07-2025/)
+🔗 [Acessar Portfólio](https://glaucoberbert.github.io/Trabalho-de-Desenvolvimento-Web-1---07-2025/)
 
 ---
 
